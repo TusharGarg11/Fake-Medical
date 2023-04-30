@@ -1,0 +1,59 @@
+<div class="form-holder mt-3">
+    <h3>Medical Report</h3>
+    <p>Fill in the data below.</p>
+    <!-- Form Code -->
+
+    <form>
+        <!-- Patient Name -->
+
+        <div class="form-group">
+            <div class="form-row">
+                <div class="col">
+                  <label for="exampleInputEmail1" class="demo">First Name</label>
+                  <input type="text" class="form-control" placeholder="First name">
+                </div>
+                <div class="col">
+                  <label for="exampleInputEmail1">Last Name</label>
+                  <input type="text" class="form-control" placeholder="Last name">
+                </div>
+              </div>
+        </div>
+        
+        <!-- Date Picker -->
+        <div id="date-picker-example" class="md-form md-outline input-with-post-icon datepicker form-group" inline="true">
+            <label for="example">DOB</label>
+            <i class="fa fa-calendar input-prefix" aria-hidden="true"></i>
+            <input placeholder="Select date" type="date" id="example" class="form-control">
+           
+<!--             
+            <i class="fas fa-calendar "></i> -->
+          </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+
+
+</div>
+
+<Style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;900&display=swap');
+    form{
+        font-family: 'Poppins', sans-serif;
+        text-rendering: optimizeLegibility;
+        -moz-osx-font-smoothing: grayscale;
+    }
+    
+    .form-holder{
+        color: white;
+        border: 3px solid #fff;
+        border-radius: 3px;
+        padding:10px;
+    }
+
+</Style>
+
+<script>
+    // Data Picker Initialization
+    // document.getElementById('date-picker-example').datepicker();
+$('.date-picker-example').datepicker();
+
+</script>

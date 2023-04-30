@@ -1,0 +1,29 @@
+.sectionOne{
+    background: red;
+    border-style: solid;
+    border-color: white;
+}
+
+.sectionTwo{
+    background-color: #152733;
+    border-style:solid;
+    border-width: thin;
+    border-radius: 5px;
+    border-color: black;
+}
+
+.sectionThree{
+    background: green;
+    border-style: solid;
+    border-color: white;
+    
+}
+
+.heightDiv{
+    height: 83vh;
+}
+
+.HeaderTextColor{
+    color: green;
+    font-weight:bold;
+}
